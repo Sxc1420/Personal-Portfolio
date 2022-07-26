@@ -1,0 +1,43 @@
+*{
+    background-color: #F5FFFA;
+}
+
+h1{
+    color: #4682B4;
+}
+
+h2{
+    color: #4682B4;
+}
+
+h3{
+    color: #696969;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 10px;
+}
+
+img.rounded-corners{
+    border-radius: 50%;
+}
+
+a:link{
+    color: #696969;
+}
+
+a:visited{
+    color: #4682B4;
+}
+
+.child:hover p{
+    opacity: 1;
+}
+
+.child:hover img{
+    opacity: 0.33;
+}
